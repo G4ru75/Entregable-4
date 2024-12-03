@@ -1,0 +1,199 @@
+/* Estilos para el formulario */
+.formulario {
+    /* Ancho y centrado del formulario */
+    width: 600px;
+    margin: 50px auto; /* Margen superior para separar del encabezado */
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+    background-color: #a6b4c1; /* Fondo del formulario */
+    background-color: #696565;
+    border: 0.1px solid rgb(204, 204, 204);
+};
+
+
+/* Estilos para las etiquetas de los campos del formulario */
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada del formulario */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"],
+.formulario input[type="file"] {
+    width: 100%; /* Abarca todo el ancho del formulario */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 0.1px solid black; 
+}
+
+/* Estilos para el botón de enviar */
+.formulario button {
+    width: 100%; /* Abarca todo el ancho del formulario */
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #69a7e2; /* Fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 0.05px solid rgb(204, 204, 204);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Estilos para cada elemento del menú */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos para los enlaces del menú */
+nav ul li a {
+    color: white; /* Color de texto */
+    text-decoration: none; /* Elimina subrayado */
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+/* Cambia el color de fondo del enlace al pasar el ratón */
+nav ul li a:hover {
+    background-color:#a6b4c1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+body{
+    background-color: white;
+}
+
+label{
+    color: white;
+}
+
+h1, h2, h3{
+    color: white;
+}
+
+.Contenedor{ 
+        border-color: black;
+        border-radius: 20px;
+        margin: 2ex;
+        text-align: center;
+        height: 30vh;
+        background-color: gray;
+        padding: 5em;
+        margin: 5em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 0.05px solid rgb(204, 204, 204);
+}
+
+.overlay { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: white; 
+    z-index: 999; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+ }
+
+ .hidden { 
+    display: none;
+ }
+
+ .revealButton { 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: 
+    translate(-50%, -50%); 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #333; /* Color de fondo visible */ 
+    color: white; /* Color del texto del botón */ 
+    border: none; /* Sin bordes */ 
+    cursor: pointer; /* Cambia el cursor cuando se pasa sobre el botón */ 
+    z-index: 1000; /* Asegúrate de que esté por encima del overlay */ 
+    border-radius: 10px;
+}
+
+.Mensaje{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Mensaje h1{
+    margin: 0 0 20 px;
+    color: black;
+}
+
+.Mensaje button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}   
+
+mensaje button:hover{
+    background-color: #696565;
+}
+
+.ContenidoOculto{
+    display: none;
+    padding: 20px;
+}
